@@ -1,0 +1,61 @@
+.principal{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+}
+.uno{
+    background-color: red;
+    width: 500px;
+    height: 850px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+
+.a{
+    display: flex;
+    flex-direction: row;
+}
+.b{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.uno-1{
+    background-image: radial-gradient(at 20px 20px, rgb(202, 252, 0), rgba(0, 157, 255, 0.468));
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.uno-2{
+    background-image: radial-gradient(at 20px 20px, rgb(105, 27, 119), rgb(65, 112, 106));
+    height: 100px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.uno-3{
+    background-image: radial-gradient(at 20px 20px, rgb(240, 175, 9), rgb(65, 112, 106));
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.uno-4{
+    background-image: radial-gradient(at 20px 20px, rgb(0, 255, 213), yellow);
+    height: 100%;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
